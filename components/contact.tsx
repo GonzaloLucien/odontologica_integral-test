@@ -2,7 +2,7 @@ import { MapPin, Phone, Instagram, MessageCircle } from "lucide-react"
 import { site } from "@/lib/site"
 import { Reveal } from "@/components/reveal"
 
-const mapSrc = `https://www.google.com/maps?q=${encodeURIComponent(site.address)}&output=embed`
+const mapSrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7067194717974!2d-68.33436202421908!3d-34.61157695791333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967907e2cca1b1e9%3A0x9ae8919ee6f4e539!2sOdontologica%20Integral!5e0!3m2!1ses!2sar!4v1780674212634!5m2!1ses!2sar"
 const mapLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(site.address)}`
 
 export function Contact() {
